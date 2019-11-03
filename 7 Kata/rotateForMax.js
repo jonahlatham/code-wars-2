@@ -1,3 +1,4 @@
+
 function maxRot(n) {
   let str = n.toString();
   let arr = [str];
@@ -8,4 +9,4 @@ function maxRot(n) {
   return Math.max.apply(null, arr);
 }
 
-console.log(maxRot(1358357))
+console.log(maxRot(38458215))
