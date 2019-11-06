@@ -5,4 +5,4 @@ Array.prototype.filter = function (fn, receiver) {
         if (i in this && fn.call(receiver, this[i], i, this)) arr.push(this[i])
     }
     return arr
-}
+}  
