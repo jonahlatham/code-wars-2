@@ -20,8 +20,7 @@ function iTri(s) {
 
 console.log(iTri(0))
 console.log(iTri(2))
-console.log(iTri(5))
 console.log(iTri(10))
+console.log(iTri(132))
 console.log(iTri(140))
-console.log(iTri(140.6))
 console.log(iTri(150))
