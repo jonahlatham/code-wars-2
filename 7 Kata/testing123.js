@@ -4,5 +4,5 @@ let number = function (array) {
         return r
     }, [])
 }
-
+  
 console.log(number(["a", "b", "c"]))
