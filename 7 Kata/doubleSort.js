@@ -11,7 +11,7 @@ function dbSort(a) {
             arr2.push(e)
             arr2.sort((a, b) => { return a - b })
         }
-    })  
+    })
     return arr1.concat(arr2)
 }
 
