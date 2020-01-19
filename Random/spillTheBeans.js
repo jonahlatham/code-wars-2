@@ -2,4 +2,4 @@ function spillTheBeans(x){
 
 }
 
-console.log(spillTheBeans(4))
+console.log(spillTheBeans(4)) 
