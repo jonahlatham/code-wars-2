@@ -1,4 +1,3 @@
-functoin test7(){
-
+function test7(){
+    
 }
-console.log(test7()) 
