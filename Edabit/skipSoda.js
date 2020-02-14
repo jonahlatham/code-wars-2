@@ -1,5 +1,5 @@
 function skipTooMuchSugarDrinks(drinks) {
-	return drinks.filter((e=>{
+	return drinks.filter((e)=>{
         if(e==='cola' || e==='fanta'){
             return false
         } else {
