@@ -9,4 +9,4 @@ public class Program
         string[] num2 = str2.Split ("");
         return num1.SequenceEqual (num2).Length;
     }
-}
+} 
