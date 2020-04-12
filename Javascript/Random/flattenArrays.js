@@ -1,5 +1,5 @@
 function flattenIt(arr){
-    return arr.join('|').join('')
+    return arr.join('|')
 }
 
-console.log(flattenIt([[1,2,3],[1,2,3],[1,2,3]]))
+console.log(flattenIt([[[1,2],3],[1,[2,3]],[[1,2],3]]))
