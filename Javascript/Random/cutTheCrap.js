@@ -1,6 +1,6 @@
 function cutTheCrap(x, y) {
   if (y >= x.length) {
-    return
+    return x.slice(0, y);
   }
 }
 
