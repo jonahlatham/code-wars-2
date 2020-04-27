@@ -1,9 +1,9 @@
 function cutTheCrap(x, y) {
-  if (y >= x.length) {
-    return x.slice(0, y);
-  }else {
-      return "no more crap to cut"
-  }
+    if (y <= x.length) {
+  return x.slice(0, y);
+    }else {
+        return "no more crap to cut"
+    }
 }
 
-console.log(cutTheCrap('sam i am', 3));
+console.log(cutTheCrap('sam i am', 7));
