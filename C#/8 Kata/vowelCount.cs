@@ -8,4 +8,8 @@ public static class Kata
     {
         return str.Count (e => "aeiou".Contains (Char.ToLower (e)));
     }
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> a27233f59384ec0a421f29fc35298d505d9a1e04
