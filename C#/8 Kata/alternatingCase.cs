@@ -18,7 +18,7 @@ namespace Extensions
                 {
                     return e.ToUpper ();
                 }
-            }).ToString ();
+            }).ToString (); 
         }
     }
 }
