@@ -1,13 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 public class Program
 {
-    public static string DoubleChar (string str)
+    public static string Repeat (string str, int num)
     {
-        char[] words = str.ToCharArray ();
-        List<string> abc = new List<string> ();
-        foreach (var i in words)
-        {
-            abc.Add (i.ToString () + i.ToString ());
-        }
-        return String.Join ("", abc);
+        return Regex.Replace (str, ".", string.Concat (Enumerable.Repeat ("$0", num)));
     }
+    // public static string Repeat (string str, int num)
+    // {
+    //     var crap = "";
+    //     foreach (var item in str)
+    //     {
+    //         int i = 0;
+    //         while (i < num)
+    //         {
+    //             crap += (item);
+    //             i++;
+    //         }
+    //     }
+    //     return crap;
+    // }
 }
