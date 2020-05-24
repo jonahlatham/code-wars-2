@@ -4,8 +4,8 @@ using System.Linq;
 
 public class Program
 {
-    public string Reverse (string str)
+    public static string Reverse (string str)
     {
-        return str.Split ("").Reverse ().Join ("");
+        return new string (str.Reverse ().ToArray ());
     }
 }
