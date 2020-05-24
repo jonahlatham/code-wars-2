@@ -6,6 +6,6 @@ public class Program
 {
     public static string RemoveFirstLast (string str)
     {
-        return str.Substring (1) + str.Substring (0, 1);
+        return str.Length <= 2 ? str : str.Substring (1, str.Length - 2);
     }
 }
