@@ -6,7 +6,5 @@ public class Program
     public static int[] SortNumsAscending (int[] arr)
     {
         return arr.OrderBy (x => x).ToArray ();
-        // Array.Sort (arr);
-        // return arr;
     }
 }
