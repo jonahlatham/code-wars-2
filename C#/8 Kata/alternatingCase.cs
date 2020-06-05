@@ -8,17 +8,7 @@ namespace Extensions
     {
         public static string ToAlternatingCase (this string s)
         {
-            return s.Select ((e, i) =>
-            {
-                if (e == e.ToUpper ())
-                {
-                    return e.ToLower ();
-                }
-                else
-                {
-                    return e.ToUpper ();
-                }
-            }).ToString (); 
+            return string.Concat (s.Select (c => char.IsUpper (c) ? char.ToLower (c) : char.ToUpper (c)));
         }
     }
 }
