@@ -12,4 +12,4 @@ public class Program
     {
         return num.ToString ("C"); //Adding 0 would remove the decimals at end
     }
-}
+ }
